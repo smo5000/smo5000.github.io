@@ -1,0 +1,38 @@
+:root {
+    --theme-color: white;
+    --primary-color: blue;
+    --secundary-color: yellow;
+    --tertiary-color: rgb(190, 74, 243);
+    --text-color: black;
+    --text-color-inverse: white;
+    --navbar-shallow-color:  #e5e5e5;
+}
+body {
+    font-family: "Kanit", sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 70px;
+ }
+a {
+    text-decoration:none;
+    color: var(--text-color);
+}
+
+.horizontal-padding {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+.vertical-padding{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.pictures{
+    
+    width: 50px;
+    height: 50px;
+    
+    
+}

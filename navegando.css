@@ -1,0 +1,51 @@
+.topheader {
+    box-shadow: 0 4px 5px var(--navbar-shallow-color);
+    position: fixed;
+    background-color: var(--theme-color);
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.topnav {
+    display: flex ; justify-content: space-between;
+    justify-content: space-between;   
+    padding: 12px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*  Formato de logo       */
+
+.logo {
+    display:flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.logo img {
+    border-radius: 50%;
+}
+
+/*  Formato de menu    */
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 0 15px;
+}
+
+.menu a{
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    text-transform: uppercase;
+}
